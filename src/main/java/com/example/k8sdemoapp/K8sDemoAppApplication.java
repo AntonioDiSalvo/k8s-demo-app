@@ -15,6 +15,8 @@ public class K8sDemoAppApplication {
 
 	@GetMapping("/")
 	public String hello() {
+
+		System.out.println("foobar");
 		return "Ciao Mondo da K8s!!";
 	}
 }
